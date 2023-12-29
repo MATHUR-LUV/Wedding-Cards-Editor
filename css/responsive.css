@@ -1,0 +1,120 @@
+@media only screen and (max-width: 1000px) and (min-width: 877px) {
+    .image img{
+        height: 500px;
+        width: 380px;
+    }
+}
+
+@media only screen and (max-width: 876px){
+    .image img{
+        height: 500px;
+        width: 370px;
+    }
+    .undo_redo {
+        position: absolute;
+        top: 1px;
+        left: 4px;
+    }
+    .redo{
+        position: absolute;
+        top: 1px;
+        left: 305px;
+    }
+
+    .undo{
+        position: absolute;
+        top: -8px;
+        left: -6px;
+    }
+
+    .rotation{
+        position: absolute;
+    bottom: 2px;
+    left: 8px;
+    width: 20%;
+    }
+    .rotation #rotation_angle{
+        font-size: 18px;
+    padding-bottom: 2px;
+    padding-left: 2px;
+    }
+    .rotation #rotationInput{
+        background: none;
+    border: 2.5px solid black;
+    border-radius: 10px;
+    padding: 3px;
+    font-size: 12px;
+    width: 79px;
+    }
+
+    .rotation .btn{
+        margin-top: 7px;
+    width: 90px;
+    }
+
+    .controls{
+        flex-direction: row;
+        position:absolute;
+        bottom: 2px;
+        width: 80%
+    }
+
+    .font{
+        font-size: 18px;
+        position: absolute;
+        bottom: 10px;
+    }
+    #fontFamily{
+        position: absolute;
+        bottom: 68px;
+        right: -38px;
+        height: 20px;
+        width: 135px;
+    }
+
+    #fontSize{
+        position: absolute;
+    bottom: 81px;
+    width: 35%;
+    left: 83px;
+
+    }
+
+    .font_size{
+        position: absolute;
+    bottom: 95px;
+    left: 95px;
+    }
+
+    .font_family{
+        position: absolute;
+    bottom: 94px;
+    right: -1px;
+
+    }
+
+    .font_color{
+        position: absolute;
+        bottom: 48px;
+        right: 123px;
+    }
+
+    #fontColor{
+        position: absolute;
+        bottom: 13px;
+        right: 121px;
+        width: 92px;
+        height: 32px;
+    }
+    .add_text{
+    
+        position: absolute;
+        bottom: -95px;
+        right: -2px;
+        width: 109px;
+        height: 45px;
+        font-size: 22px;
+
+    }
+
+}

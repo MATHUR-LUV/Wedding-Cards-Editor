@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wedding Card</title>
+    <link rel="stylesheet" href="../css/template1.css">
+    <link rel="stylesheet" href="../css/responsive.css">
+</head>
+<body>
+    <div id="canvas" class="canvas"></div>
+    <div class="title">
+        <h1>Wedding Card</h1>
+    </div>
+    <div class="undo_redo">
+        <button class="btn undo" id="undoButton">Undo</button>
+        <button class="btn redo" id="redoButton">Redo</button>
+    </div>
+    <div class="rotation" >
+        <label for="rotationInput" id="rotation_angle">Rotation Angle : </label>
+        <input type="number" id="rotationInput" value="0">
+        <button id="rotateButton" class="btn">Rotate</button>
+    </div>
+    <div class="image">
+        <img src="../images/template1.png" alt="wedding card image">
+    </div>
+    <div class="addTextButton">
+        <button class="btn add_text" id="addTextbutton">Add Text</button>
+    </div>
+
+    <div class="controls">
+        <label for="fontSize" class="padding font font_size">Font Size : </label>
+        <input type="range" min="5" max="100" value="20" id="fontSize"> 
+        <label for="fontFamily" class="padding font font_family">Font Family : </label>
+        <select id="fontFamily" >
+            <option value="Arial, sans-serif">Arial</option>
+            <option value="Times New Roman, serif">Times New Roman</option>
+            <option value="Courier New, monospace">Courier New</option>
+            <option value="Georgia, serif">Georgia</option>
+            <option value="Verdana, sans-serif">Verdana</option>
+            <option value="Impact, sans-serif">Impact</option>
+            <option value="Tahoma, sans-serif">Tahoma</option>
+            <option value="Palatino Linotype, Book Antiqua, Palatino, serif">Palatino</option>
+            <option value="Trebuchet MS, sans-serif">Trebuchet MS</option>
+            <option value="Lucida Console, Monaco, monospace">Lucida Console</option>
+            <option value="Garamond, serif">Garamond</option>
+            <option value="Arial Black, sans-serif">Arial Black</option>
+            <option value="Comic Sans MS, cursive, sans-serif">Comic Sans MS</option>
+            <option value="Bookman Old Style, Bookman, serif">Bookman Old Style</option>
+            <option value="Century Gothic, sans-serif">Century Gothic</option>
+            <option value="Copperplate, Copperplate Gothic Light, sans-serif">Copperplate</option>
+            <option value="Franklin Gothic Medium, Arial, sans-serif">Franklin Gothic Medium</option>
+            <option value="Rockwell, serif">Rockwell</option>
+            <option value="Courier, monospace">Courier</option>
+            <option value="Candara, Calibri, sans-serif">Candara</option>
+            <option value="Arial Narrow, sans-serif">Arial Narrow</option>
+            <option value="Bodoni MT, serif">Bodoni MT</option>
+            <option value="Monotype Corsiva, cursive">Monotype Corsiva</option>
+            <option value="Old English Text MT, serif">Old English Text MT</option>
+            <option value="Segoe UI, Tahoma, Geneva, Verdana, sans-serif">Segoe UI</option>
+            <option value="SimSun, sans-serif">SimSun</option>
+            <option value="MS Gothic, sans-serif">MS Gothic</option>
+            <option value="Palatino Linotype, Book Antiqua, Palatino, serif">Palatino</option>
+        </select>
+
+        <label for="fontColor" class="padding font font_color">Font Color : </label>
+        <input type="color" id="fontColor" value="#000000">
+    </div>
+    
+</body>
+
+<script src="../js/script.js"></script>
+</html>

@@ -1,0 +1,14 @@
+@media only screen and (max-width : 1144px) {
+    .container{
+        display: flex;
+        flex-direction: column;
+    }
+
+    .heading h2{
+        font-size: 23px;
+    }
+
+    .card{
+        margin-bottom: 20px;
+    }
+}

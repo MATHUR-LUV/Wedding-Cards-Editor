@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Carattere&family=Satisfy&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: bisque;
+    
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.card{
+    display: flex;
+    flex-direction: column;
+    padding: 15px;
+
+}
+.card img{
+    height: 500px;
+    width: 350px;
+
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.btn{
+    font-size: 20px;
+    background: burlywood;
+    padding: 2px;
+    
+    cursor: pointer;
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 60%;
+    /* align-items: center;
+    
+    justify-content: center; */
+    margin: auto;
+    margin-top: 10px;
+}
+
+.btn:hover{
+    background-color: rgb(231, 139, 26);
+}
+
+.heading{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Satisfy', cursive;
+    padding: 5px;
+    
+    
+}
